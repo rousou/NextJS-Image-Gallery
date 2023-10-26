@@ -53,7 +53,7 @@ export default async function Home({ params: { topic } }: customProps) {
                 <p>Every page uses different approach to <strong>fetching and caching data</strong>. Click the links in the nav bar to try them out.</p>
             </Alert>
             <Alert variant="secondary">
-                <p>Note: In order to load the data on this site, you need to get a <strong>asd</strong>free API key from Unsplash and add it to your .env.local fils as UNSPALSH_ACCESS_KEY.</p>
+                <p>Note: In order to load the data on this site, you need to get a <a href="https://unsplash.com/developers">free API key from Unsplash</a> and add it to your <code>.env.local</code> file as <code>UNSPLASH_ACCESS_KEY</code>.</p>
                 <p className="mb-0">Unsplash has a free quota of 50 request per hour so you might start getting errors if you try too often</p>
             </Alert>
         </div>
