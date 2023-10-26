@@ -1,0 +1,16 @@
+node -v                     //  to see the version of node.js
+npx create-next-app@latest  //  to install next app latest
+npm i bootstrap react-bootstrap //  to install bootstrap
+
+page is the index file and must named page.tsx
+not-found.tsx is the file for unknonwn links
+loading.tsx is the loading page and can be used for all the pages inside, or use different in hello/loading.tsx for example
+
+"use client" on top of .tsx file to use client componends like useEffect or useStates
+
+npm run dev // development mode
+npm start   // to start
+npm run build   // production mode
+
+CSR client-side rendering
+SSR server-side rendering
