@@ -65,6 +65,7 @@ export default function SearchPage() {
                 {searchResults?.length === 0 &&
                     <p>Nothing found. Try different query!</p>
                 }
+            </div>
                 {searchResults &&
                     <>
                         {
@@ -81,7 +82,6 @@ export default function SearchPage() {
                         }
                     </>
                 }
-            </div>
         </div>
     )
 }
